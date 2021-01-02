@@ -1,6 +1,6 @@
-# Themeflip
+# ThemeFlip
 
-Themeflip is a Linux theme switcher written in Python.
+ThemeFlip is a Linux theme switcher written in Python.
 
 ## Why?
 
