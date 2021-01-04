@@ -3,7 +3,9 @@
 This is the main script for ThemeFlip.
 """
 
+from args import parse_args
 import os
+import sys
 
 CONFIG_DIR = "~/.config/themeflip"
 THEME_DIR = "themes"
@@ -17,4 +19,5 @@ def create_config_dir():
         os.makedirs(config_full_path + "/" + THEME_DIR)
 
 
+parse_args(sys.argv[1:])
 create_config_dir()
